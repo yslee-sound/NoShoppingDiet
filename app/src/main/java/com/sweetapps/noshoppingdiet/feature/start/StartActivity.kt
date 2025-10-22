@@ -145,7 +145,7 @@ class StartActivity : BaseActivity() {
         }
     }
 
-    override fun getScreenTitle(): String = "금주 설정"
+    override fun getScreenTitle(): String = "노쇼핑 설정"
 }
 
 @OptIn(ExperimentalMaterial3Api::class, ExperimentalFoundationApi::class)
@@ -406,7 +406,7 @@ fun StartScreen(gateNavigation: Boolean = false, onDebugLongPress: (() -> Unit)?
                             )
                         }
                         Text(
-                            text = "금주할 목표 기간을 선택해주세요",
+                            text = "노쇼핑할 목표 기간을 입력해주세요",
                             style = MaterialTheme.typography.bodyMedium,
                             color = colorResource(id = AppR.color.color_hint_gray),
                             textAlign = TextAlign.Center,
